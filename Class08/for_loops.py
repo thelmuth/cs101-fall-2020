@@ -42,14 +42,14 @@
 ### What's this going to do
 # animal = "panda"
 # for index in range(len(animal)):
-#     print(animal[:index + 1])
+#     print(animal[:index])
 
 ### We can also directly iterate over a string.
 ### This will assign each character in the string to the
 ### loop variable
 # animal = "panda"
-# for bobby in animal:
-#     print("The character is", bobby)
+# for char in animal:
+#     print("The character is", char)
 # print("This way, you don't have access to the index :(")
     
 # numbers = [16, 2999, 308, 0, 10000]
@@ -60,11 +60,11 @@
 ### through a loop.
 ### Need a variable with a starting value
 ### We call this variable the _accumulator_
-numbers = [16, 2999, 308, 0, 10000]
-the_sum = 0
-for num in numbers:
-    the_sum = the_sum + num
-print("The numbers in", numbers, "add up to", the_sum)
+# numbers = [16, 2999, 308, 0, 10000]
+# the_sum = 0 # This is the accumulator
+# for num in numbers:
+#     the_sum = the_sum + num
+# print("The numbers in", numbers, "add up to", the_sum)
 
 
 
