@@ -32,18 +32,18 @@ def main():
 
     ## This is equivalent in Python
     (x_vals, y_vals) = make_exp_data(10)
-#     print(x_vals)
-#     print(y_vals)
+    print(x_vals)
+    print(y_vals)
 
 #     plt.plot(x_vals, y_vals)
 
     # Make the line green and have circles at data points
-#     plt.plot(x_vals, y_vals, color="green", marker="o")
+    plt.plot(x_vals, y_vals, color="green", marker="o", markerfacecolor="orange")
     
     # Make the line disappear and make orange circles
 #     plt.plot(x_vals, y_vals, color="orange", marker="o", linestyle="none")
-#     
-#     plt.show()
+    
+    plt.show()
 
     ### Visualize music
 
@@ -78,17 +78,17 @@ def main():
 #     plt.show()
 
     ### Visualize snare hit
-    snare = Audio()
-    snare.open_audio_file("Snare.wav")
-    snare.play()
-    
-    sample_list = snare.get_sample_list()
-    
-#     plt.plot(sample_list)
-
-
-    plt.plot(sample_list[:1000])
-    plt.show()
+#     snare = Audio()
+#     snare.open_audio_file("Snare.wav")
+#     snare.play()
+#     
+#     sample_list = snare.get_sample_list()
+#     
+# #     plt.plot(sample_list)
+# 
+# 
+#     plt.plot(sample_list[:1000])
+#     plt.show()
     
 
 
