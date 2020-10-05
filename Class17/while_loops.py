@@ -13,27 +13,27 @@ def main():
     ### repeating. But, we don't know how many times to play it.
     ### We can use a while loop until the song is 10 seconds long.
 
-#     ten_second_snare = Audio()
-#     snare = Audio()
-#     snare.open_audio_file("Snare.wav")
-#     
-#     count = 0
-#     while len(ten_second_snare) < 10000:
-#         ten_second_snare += snare
-#         count += 1
-#         
-#     print(len(ten_second_snare))
-#     print("number of snare taps:", count)
-#     ten_second_snare.play()
-#     ten_second_snare = ten_second_snare[:1000]
+    ten_second_snare = Audio()
+    snare = Audio()
+    snare.open_audio_file("Snare.wav")
+    
+    count = 0
+    while len(ten_second_snare) < 10000:
+        ten_second_snare += snare
+        count += 1
+        
+    print(len(ten_second_snare))
+    print("number of snare taps:", count)
+    ten_second_snare.play()
+    ten_second_snare = ten_second_snare[:1000]
 
     ### Want to plot y values of 2^x until y > 1000000
-#     (x_vals, y_vals) = make_exp_data_max_y(1000000)
-#     print(x_vals)
-#     print(y_vals)
-#     
-#     plt.plot(x_vals, y_vals)
-#     plt.show()
+    (x_vals, y_vals) = make_exp_data_max_y(1000000)
+    print(x_vals)
+    print(y_vals)
+    
+    plt.plot(x_vals, y_vals)
+    plt.show()
 
     ### Guessing game
     ### Computer picks a random number in range 0 to 100
