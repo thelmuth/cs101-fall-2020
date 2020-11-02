@@ -6,10 +6,11 @@ WHITE = (255, 255, 255)
 
 def main():
 
-    directory = os.getcwd()
+#     directory = os.getcwd()
     
     ### Opens the image from the current working directory
-    kids = Image.open(directory + "/box.jpg")
+#     kids = Image.open(directory + "/box.jpg")
+    kids = Image.open("box.jpg")
 #     kids.show()
 
     ### Detect the edges
